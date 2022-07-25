@@ -22,6 +22,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                echo "Deploying.... ${NEW_VERSION}"
             }
         }
     }
